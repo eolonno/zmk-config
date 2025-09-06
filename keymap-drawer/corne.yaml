@@ -18,7 +18,7 @@ layers:
   - S
   - D
   - F
-  - G
+  - {t: G, h: extra}
   - H
   - J
   - K
@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - {t: N, h: extra}
+  - N
   - M
   - ','
   - .
@@ -147,7 +147,7 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - BRIGHTNESS DEC
-  - BRIGHTNESS INC
+  - {t: BRIGHTNESS INC, type: held}
   - {t: ▽, type: trans}
   - ⏮️
   - PLAY PAUSE
@@ -160,7 +160,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
