@@ -230,6 +230,7 @@ combos:
   l: [BAS]
 - p: [2, 14]
   k: '@'
+  l: [BAS]
 - p: [3, 15]
   k: '#'
   l: [BAS]
@@ -247,10 +248,13 @@ combos:
   l: [BAS]
 - p: [15, 27]
   k: '*'
+  l: [BAS]
 - p: [16, 28]
   k: (
+  l: [BAS]
 - p: [17, 29]
   k: )
+  l: [BAS]
 - p: [6, 18]
   k: PAGE UP
   l: [BAS]
@@ -259,10 +263,13 @@ combos:
   l: [BAS]
 - p: [7, 19]
   k: '-'
+  l: [BAS]
 - p: [8, 20]
   k: '='
+  l: [BAS]
 - p: [9, 21]
   k: /
+  l: [BAS]
 - p: [21, 33]
   k: \
   l: [BAS]
