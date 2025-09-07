@@ -50,18 +50,18 @@ layers:
   - '3'
   - '4'
   - '5'
+  - PREVIOUS
+  - VOLUME DOWN
+  - VOLUME UP
+  - ⏭️
+  - MUTE
+  - $$mdi:backspace-outline$$
+  - LEFT CONTROL
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - $$mdi:backspace-outline$$
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - CAPSLOCK
-  - GLOBE
-  - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
@@ -136,30 +136,30 @@ layers:
   - F3
   - F4
   - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPSLOCK
   - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - CAPSLOCK
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
   - {t: ▽, type: trans}
-  - ⏮️
-  - PLAY PAUSE
-  - ⏭️
   - {t: ▽, type: trans}
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - GLOBE
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - {t: F11, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
