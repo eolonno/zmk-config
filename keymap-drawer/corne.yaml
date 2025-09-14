@@ -15,14 +15,14 @@ layers:
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-control$$
   - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: S, h: LEFT CONTROL}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT META}
+  - {t: G, h: Sft+Alt+LEFT CONTROL}
+  - {t: H, h: AltGr+Sft+RIGHT CONTROL}
+  - {t: J, h: RIGHT META}
+  - {t: K, h: RIGHT ALT}
+  - {t: L, h: RIGHT CONTROL}
   - ;
   - {t: '''', h: svc}
   - LEFT SHIFT
