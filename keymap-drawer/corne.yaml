@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   BAS:
-  - ↹
+  - ESCAPE
   - Q
   - W
   - E
@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - Esc
-  - $$mdi:apple-keyboard-command$$
-  - LOW
+  - ↹
   - ␣
-  - ⏎
+  - LOW
   - RAI
-  - $$mdi:apple-keyboard-option$$
+  - ENTER
+  - RIGHT SHIFT
   LOW:
   - ↹
   - '1'
@@ -80,12 +80,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-command$$
-  - {type: held}
-  - ␣
-  - ⏎
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - ␣
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ENTER
+  - {t: ▽, type: trans}
   RAI:
   - ↹
   - '!'
@@ -123,12 +123,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - ␣
-  - ⏎
-  - {t: '&studio_unlock', type: held}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ENTER
+  - {t: ▽, type: trans}
   extra:
   - {t: ▽, type: trans}
   - F1
